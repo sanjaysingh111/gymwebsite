@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sanjay's fitness</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin:0px;
+    padding:0px;
+    background:url('gym1.jpg');
+    height:1000px;
+}
+.left{ border:2px solid red;
+display:inline-block;
+position:absolute;
+left:34px;
+top:20px;
+text-align:center;
+line-height:15px;
+}
+.left img
+{
+width:132px;
+height:200px;
+
+
+}
+ 
+.right{display:inline-block;
+border:2px solid red;
+position:absolute;
+right:34px;
+top:20px;
+}
+.mid{ display:block;
+width:50%;
+margin:20px auto;
+border:2px solid red;
+
+}
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+
+    display:inline-block;
+}
+.navbar li a{
+    color:black;
+    text-decoration:none;
+    padding:10px 10px;
+    font-size:30px;
+}
+.navbar li a:hover,.navbar li a.active
+{
+    text-decoration:underline;
+    color:green;
+}
+.btn
+{ font-family: 'Baloo Bhaina 2', cursive;
+    margin: 0px 5px;
+    padding:8px 15px;
+    background-color:black;
+    color:white;
+    border:2px solid green;
+    border-radius:10px;
+    font-size:15px;
+    cursor:pointer;
+    
+}
+.btn:hover
+{
+    background-color:blue;
+}
+.container{position:;
+ color:brown;
+background-color:white;
+text-align:center;
+    border:2px solid red;
+    margin:250px 100px;
+   
+    border-radius:20px;
+
+}
+.container h3{
+    margin : 1px 2px;
+}
+.form-group input
+{ display:block;
+    font-align:center;
+    margin:4px auto ;
+    width:50%;
+    font-size:20px;
+}
+</style>
+
+<body>
+ <header class="header">
+  <div class="left">
+     <img src="gymlogo1.jpg"  alt>
+     <div> sanjay fitness club</div>
+  </div>
+  <div class="mid">
+<ul class="navbar">
+       <li><a href="#" class="active">home</a></li>
+       <li><a href="#">contactus</a></li>
+       <li><a href="#">gymcalculator</a></li>
+       <li><a href="#">aboutus</a></li>
+
+     </ul>
+  </div>
+  <div class="right">
+   <button class="btn">call us now</btn>
+   <button class="btn">email us</btn>
+  </div>
+ </header>
+ <div class="container">
+
+<h1>fill the details given below</h1>
+<h3>only for residence of new-delhi</h3>
+<form action="noaction.php">
+<div class="form-group">
+<input type="text" name="" placeholder="enter your name">
+</div>
+<div class="form-group">
+<input type="text" name="" placeholder="enter your age">
+</div>
+<div class="form-group">
+<input type="text" name="" placeholder="enter your weight">
+</div>
+<div class="form-group">
+<input type="text" name="" placeholder="enter your locality">
+</div>
+ <button class="btn"> submit</button>
+</form>
+
+
+ </div>
+</body>
+</html>
